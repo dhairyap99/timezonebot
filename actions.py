@@ -31,8 +31,8 @@ class ActionShowTimeZone(Action):
 
         if timezone is None:
             output = "Could not find time zone of {}".format(city)
-        else: 
-            output = "Time zone of {} is {}".format(city, timezones)
+        #else: 
+        #   output = "Time zone of {} is {}".format(city, timezones)
      
         dispatcher.utter_message(text=output)
 
